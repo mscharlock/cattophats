@@ -3,13 +3,35 @@ body {
   font-family: 'Ruda', sans-serif;
 }
 nav {
-    width: 100%;
-    color: #222;
+    width: 960px;
+    margin: 0 auto;
+    background-color: black;
+    /*background-color: #d0d9c8;*/
+}
+
+ol, ul {
+    list-style: none;
+    text-align: right;
 }
 
 nav li {
   display: inline-block;
   padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+nav li:hover {
+  background-color: white;
+  color: black;
+}
+
+div.container > p {
+  font-family: 'Ruda', sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 4px rgb(12, 7, 2);
 }
 
 .hero {
@@ -24,15 +46,18 @@ nav li {
   /* background-repeat: no-repeat; */
   background-attachment: fixed;
   background-size: contain;
-  height: 380px;
+  height: 450px;
+  /*box-shadow: 4px 4px 10px 1px rgba(232,200,167,1);*/
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 200px;
   color: white;
   text-shadow: 3px 3px 5px grey;
   margin: 0 auto;
+  font-family: 'Niconne', cursive;
   text-align: center;
+  padding-top: 175px;
 }
 
 #subanners {
