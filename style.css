@@ -1,0 +1,42 @@
+body {
+  background-color: #fff;
+  font-family: 'Ruda', sans-serif;
+}
+nav {
+    width: 100%;
+    color: #222;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.hero {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  background-image: url('imgs/Cattenhat.jpg');
+  background-position: 50% 30%;
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  background-size: contain;
+  height: 380px;
+}
+
+h1 {
+  font-size: 100px;
+  color: white;
+  text-shadow: 3px 3px 5px grey;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#subanners {
+  width: 300px;
+  height: 400px;
+  background-color: grey;
+}
