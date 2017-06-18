@@ -1,7 +1,12 @@
 body {
-  background-color: #fff;
+  background-color: #d0d9c8;
   font-family: 'Ruda', sans-serif;
 }
+
+/*.pawprints {
+  background-image: url('imgs/pawprints1.jpg');
+}*/
+
 nav {
     width: 960px;
     margin: 0 auto;
@@ -45,7 +50,7 @@ div.container > p {
   background-position: 50% 30%;
   /* background-repeat: no-repeat; */
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
   height: 450px;
   /*box-shadow: 4px 4px 10px 1px rgba(232,200,167,1);*/
 }
@@ -60,8 +65,31 @@ h1 {
   padding-top: 175px;
 }
 
-#subanners {
+ul {
+  text-align: center;
+  margin: 0 auto;
+}
+
+ul li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 25px;
   width: 300px;
-  height: 400px;
-  background-color: grey;
+  height: 300px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.subanners li:nth-child(3) {
+  margin-right: 0;
+}
+
+footer {
+  height: 20px;
+  width: 960px;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  padding: 4px;
+  text-align: center;
 }
